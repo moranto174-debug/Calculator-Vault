@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Calculator Vault</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.55; max-width: 42rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    h1 { font-size: 1.5rem; margin-top: 0; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    p, li { font-size: 0.95rem; }
+    ul { padding-left: 1.25rem; }
+    .meta { color: #666; font-size: 0.875rem; margin-bottom: 1.5rem; }
+    a { color: inherit; }
+    footer { margin-top: 2.5rem; font-size: 0.875rem; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta"><strong>Calculator Vault</strong> · Last updated: April 21, 2026</p>
+
+  <p>This policy describes how the <strong>Calculator Vault</strong> application (“the app”) handles information on your device. By using the app, you agree to what is described here.</p>
+
+  <h2>1. Storage and file permissions</h2>
+  <p>The app’s core purpose is to <strong>encrypt, hide, and manage files locally</strong>. To do that, it may request access to device storage, including but not limited to:</p>
+  <ul>
+    <li><strong>MANAGE_EXTERNAL_STORAGE</strong> (“All files”): broad access when the system requires it to import or hide files from different folders, or to restore them reliably.</li>
+    <li><strong>READ_EXTERNAL_STORAGE</strong> (on older Android versions, typically up to API 32): read shared files so you can select them and move them into the app’s encrypted storage.</li>
+    <li><strong>READ_MEDIA_IMAGES</strong> and <strong>READ_MEDIA_VIDEO</strong> (Android 13 and later): scoped access to photos and videos so you can choose what to protect.</li>
+  </ul>
+  <p>This access is used <strong>only</strong> for vault operations (for example: import, encrypt, restore, or remove the original as the app’s flow requires). It is not used to read your files for purposes unrelated to that functionality.</p>
+
+  <h2>2. Local data and no cloud vault</h2>
+  <p><strong>Your sensitive content stays on the device.</strong> Files you protect are encrypted and stored in the <strong>app’s private storage</strong>. Vault information (for example, metadata needed to organize folders and files) is handled locally using on-device databases.</p>
+  <p><strong>Passwords, PINs, preferences, and notes</strong> you set within the app are processed locally; we <strong>do not upload</strong> your encrypted files, passwords, or vault content to our servers because we <strong>do not operate a cloud service</strong> for that content. The app is not designed to sync your vault to remote servers.</p>
+  <p><strong>Your responsibility:</strong> if you lose the device or uninstall the app without exporting what you need first, access to that data may be lost depending on the system and Android backup settings.</p>
+
+  <h2>3. Third-party services (crash diagnostics)</h2>
+  <p>To improve stability, published builds may integrate <strong>Firebase Crashlytics</strong> (Google). Crashlytics collects crash reports and related technical data, such as:</p>
+  <ul>
+    <li>stack traces and diagnostic signals;</li>
+    <li>basic device information and app version;</li>
+    <li>technical identifiers Google uses in its crash analytics infrastructure.</li>
+  </ul>
+  <p>This data is intended to <strong>find and fix bugs</strong>; it is not meant to include your encrypted file contents or passwords. Information is transmitted according to Google/Firebase documentation and policies.</p>
+  <p>If a specific build does not include Crashlytics, this collection does not apply; you can review permissions and components of the installed build from the store listing or system app info.</p>
+
+  <h2>4. Contact</h2>
+  <p>For privacy questions, exercising rights where applicable under law, or questions about this policy, contact:</p>
+  <p><strong><a href="mailto:REPLACE_WITH_YOUR_SUPPORT_EMAIL">REPLACE_WITH_YOUR_SUPPORT_EMAIL</a></strong></p>
+  <p>Replace the placeholder above with your real support email before publishing this page.</p>
+
+  <footer>
+    <p>Calculator Vault — informational document. The data controller, as applicable, is the app publisher listed on the distribution store.</p>
+  </footer>
+</body>
+</html>
